@@ -12,12 +12,13 @@ html {
 
 body {
     font-family: "Jaro", sans-serif;
-   
+
 }
 
 img {
     width: 100%;
 }
+
 section {
     padding: 100px 0;
 
@@ -366,61 +367,86 @@ textarea:focus {
     background: transparent;
     color: #fff;
 }
+
 /* FOOTER */
 footer {
-    background-color: #333; /* Footer arka plan rengi */
-    color: #fff; /* Metin rengi */
-    padding: 50px 0; /* Footer içerisindeki içeriğin etrafına boşluk bırakma */
+    background-color: #333;
+    /* Footer arka plan rengi */
+    color: #fff;
+    /* Metin rengi */
+    padding: 50px 0;
+    /* Footer içerisindeki içeriğin etrafına boşluk bırakma */
 }
 
 .inner_footer {
-    display: flex; /* Flexbox'u etkinleştir */
-    justify-content: space-between; /* İçeriği soldan ve sağdan ortalamak için */
-    max-width: 1200px; /* İçeriğin maksimum genişliği */
-    margin: 0 auto; /* İçeriği yatayda merkeze hizala */
-    padding: 0 20px; /* İçeriğin sol ve sağ kenarlarına iç boşluk ekleme */
+    display: flex;
+    /* Flexbox'u etkinleştir */
+    justify-content: space-between;
+    /* İçeriği soldan ve sağdan ortalamak için */
+    max-width: 1200px;
+    /* İçeriğin maksimum genişliği */
+    margin: 0 auto;
+    /* İçeriği yatayda merkeze hizala */
+    padding: 0 20px;
+    /* İçeriğin sol ve sağ kenarlarına iç boşluk ekleme */
 }
 
 .child_footer {
-    flex-basis: 48%; /* İçeriği yüzde bazında genişlik verme (iki sütun olacak şekilde) */
+    flex-basis: 48%;
+    /* İçeriği yüzde bazında genişlik verme (iki sütun olacak şekilde) */
 }
 
 h3 {
-    font-size: 24px; /* Başlık font boyutu */
-    margin-bottom: 10px; /* Başlık altına boşluk bırakma */
+    font-size: 24px;
+    /* Başlık font boyutu */
+    margin-bottom: 10px;
+    /* Başlık altına boşluk bırakma */
 }
 
-p, ul {
-    font-size: 16px; /* Metin font boyutu */
+p,
+ul {
+    font-size: 16px;
+    /* Metin font boyutu */
 }
 
 ul {
-    list-style: none; /* Liste işaretlerini kaldır */
-    padding: 0; /* Liste içerisindeki boşlukları kaldır */
+    list-style: none;
+    /* Liste işaretlerini kaldır */
+    padding: 0;
+    /* Liste içerisindeki boşlukları kaldır */
 }
 
 .footer_social li,
 .footer_contact li {
-    margin-bottom: 10px; /* Sosyal medya ve iletişim bilgileri arasında boşluk bırakma */
+    margin-bottom: 10px;
+    /* Sosyal medya ve iletişim bilgileri arasında boşluk bırakma */
 }
 
 .footer_social a,
 .footer_contact i {
-    color: #fff; /* Link ve ikonların rengi */
-    text-decoration: none; /* Link altı çizgilerini kaldır */
-    transition: color 0.3s ease; /* Renk değişimini animasyonla yap */
+    color: #fff;
+    /* Link ve ikonların rengi */
+    text-decoration: none;
+    /* Link altı çizgilerini kaldır */
+    transition: color 0.3s ease;
+    /* Renk değişimini animasyonla yap */
 }
 
 .footer_social a:hover {
-    color: #ffcc00; /* Link hover durumunda rengini değiştir */
+    color: #ffcc00;
+    /* Link hover durumunda rengini değiştir */
 }
+
 .contact_section {
-   
-    color: #fff; /* Metin rengi (beyaz) */
+
+    color: #fff;
+    /* Metin rengi (beyaz) */
 }
+
 .footer_social a {
-    font-size: 36px; 
+    font-size: 36px;
 }
-footer_contact li{
+
+footer_contact li {
     font-size: 48px;
 }
